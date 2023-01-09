@@ -3,18 +3,62 @@
     width: 100%;
 } */
 * {
-    
-
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
 }
+
 .banner {
     background-image: url('../images/banner/banner2.png');
     display: flex;
-    width: 100%;
-    height: 800px;
-}
-.btn-primary {
-     background-color: orangered;
-}
-.sub-banner {
+
+
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 809px;
+    left: 1600px;
+    top: 0px;
     text-align: right;
+
+}
+
+.btn-primary {
+    background-color: orangered;
+}
+
+/* .sub-banner {
+    text-align: right;
+} */
+
+}
+.sub-title {
+    font-weight: 700;
+font-size: 65px;
+line-height: 76px;
+text-align: right;
+
+}
+header div { 
+    text-align: right;
+}
+.image-text {
+    display: flex;
+}
+.skills-container {
+    display: flex;
+    gap: 18px;
+}
+.bg-image {
+    background-image: url('../images/gradient2.png');
+    background-repeat: no-repeat;
+}
+.black {
+    color: black;
+    display: flex;
+    background-color: black;
+}
+.resume-content {
+    display: flex;
+}
+.text-font {
+
 }
